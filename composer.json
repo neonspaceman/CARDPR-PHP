@@ -1,0 +1,17 @@
+{
+  "name": "api-test",
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/ApiTests.php"
+    ],
+    "psr-4": {
+      "Tests\\": "src/Tests/",
+      "Curl\\": "src/Curl/"
+    }
+  }
+}
